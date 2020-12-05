@@ -9,3 +9,7 @@ $(call inherit-product, vendor/umidigi/breeze/breeze-vendor.mk)
 
 # Inherit from mt6763-common
 $(call inherit-product, device/umidigi/mt6763-common/mt6763-common.mk)
+
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay
