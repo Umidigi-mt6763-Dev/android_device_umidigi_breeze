@@ -7,6 +7,9 @@
 DEVICE_PATH := device/umidigi/breeze
 BOARD_VENDOR := umidigi
 
+# Inherit from mt6763-common
+-include device/umidigi/mt6763-common/BoardConfigCommon.mk
+
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := A5_Pro,breeze
 
